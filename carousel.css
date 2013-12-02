@@ -112,20 +112,30 @@ body {
 
   /* Navbar positioning foo */
   .navbar-wrapper {
-    margin-top: 20px;
+    margin-top: 0px;
   }
   .navbar-wrapper .container {
+    width: 100%;
+    padding-left:  0px;
+    padding-right: 0px;
+  }
+  .navbar-wrapper .navbar {
     padding-left:  15px;
     padding-right: 15px;
   }
-  .navbar-wrapper .navbar {
-    padding-left:  0;
-    padding-right: 0;
+  
+  .navbar-header {
+    margin-left: 30px !important;
+    margin-right: 30px !important;
+  }
+  
+  .nav li {
+    margin-left: 30px !important;
   }
 
   /* The navbar becomes detached from the top, so we round the corners */
   .navbar-wrapper .navbar {
-    border-radius: 4px;
+    border-radius: 0px;
   }
 
   /* Bump up size of carousel content */
