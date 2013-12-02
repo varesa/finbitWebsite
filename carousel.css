@@ -113,24 +113,27 @@ body {
   /* Navbar positioning foo */
   .navbar-wrapper {
     margin-top: 0px;
+    position: fixed;
   }
   .navbar-wrapper .container {
-    width: 100%;
+    /*width: 100%;*/
     padding-left:  0px;
     padding-right: 0px;
   }
+  
+  .nav-container {
+    width: 100%;
+  }
+  
   .navbar-wrapper .navbar {
     padding-left:  15px;
     padding-right: 15px;
   }
   
   .navbar-header {
-    margin-left: 30px !important;
-    margin-right: 30px !important;
   }
   
   .nav li {
-    margin-left: 30px !important;
   }
 
   /* The navbar becomes detached from the top, so we round the corners */
